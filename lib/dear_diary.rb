@@ -1,2 +1,2 @@
-class DearDiary
+class Diary
 end

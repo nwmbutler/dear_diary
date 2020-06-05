@@ -1,7 +1,7 @@
 require 'sinatra/base'
-# require_relative ''
+require_relative './lib/dear_diary'
 
-class DearDiary < Sinatra::Base
+class DearDiaryManager < Sinatra::Base
 
   get '/' do
     erb:index
