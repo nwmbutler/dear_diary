@@ -7,3 +7,9 @@ feature 'Homepage' do
     expect(page).to have_button "Submit"
   end
 end
+
+feature 'added' do
+  scenario 'it should have two form elements to fill' do
+    visit '/'
+  end
+end
